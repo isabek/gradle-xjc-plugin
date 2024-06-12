@@ -92,7 +92,7 @@ dependencies {
 }
 
 xjc {
-    extraArgs.add '-Xequals', '-XhashCode', '-XtoString'
+    extraArgs.addAll '-Xequals', '-XhashCode', '-XtoString'
 }
 ----
 
@@ -104,7 +104,7 @@ dependencies {
 }
 
 xjc {
-    extraArgs.add("-Xequals", "-XhashCode", "-XtoString")
+    extraArgs.addAll("-Xequals", "-XhashCode", "-XtoString")
 }
 ----
 ====
